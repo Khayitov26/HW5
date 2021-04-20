@@ -1,0 +1,78 @@
+@import 'fonts.css';
+
+* {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.a {
+    color: cornsilk;
+    
+}
+
+.a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.img, .oneimg {
+    border: 2px solid teal;
+}
+
+.threeimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.oneimg {
+    opacity: 50%;
+    display: block; 
+}
+
+.oneimg:hover {
+    opacity: 1;
+}
+
+.sp1 {
+    font-weight: 700;
+}
+
+.sp2 {
+    font-style: oblique;
+}
+
+.sp3 {
+    color: tomato;
+}
+
+.sp4 {
+    color: rgba(51, 121, 183, 0.404);
+}
+
+.sp5 {
+    color: steelblue;
+}
+
+.section {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
